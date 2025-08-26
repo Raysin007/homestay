@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summit Himalayan Homestay | Mountain Retreat in Darjeeling</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <h1>Summit Himalayan</h1>
+                <style>
+                    h1 {
+                        font-family: "Libertinus Serif", serif;
+                    }
+
+                    .nav-links a {
+                        font-family: "Libertinus Serif", serif;
+
+                    }
+
+                    .book-now-btn {
+                        padding: 20px;
+                    }
+
+                    .slide-content h2 {
+                        font-family: "Playfair Display", serif;
+
+                    }
+
+                    .slide-content p {
+                        font-family: "Montserrat", sans-serif;
+                    }
+
+                    .welcome h2 {
+                        font-family: "Libertinus Serif", serif;
+                    }
+
+                    .welcome p {
+                        font-family: "Montserrat", sans-serif;
+                    }
+
+                    h2.section-title {
+                        font-family: "Libertinus Serif", serif;
+                    }
+
+                    .section-subtitle {
+                        font-family: "Montserrat", sans-serif;
+                        text-align: center;
+                    }
+
+                    .attraction-card h3 {
+                        font-family: "Libertinus Serif", serif;
+                    }
+
+                    .attraction-card p {
+                        font-family: "Montserrat", sans-serif;
+                    }
+
+                    .wifi {
+                        font-family: "Montserrat", sans-serif;
+                        text-align: left;
+                    }
+
+                    .park {
+                        font-family: "Montserrat", sans-serif;
+                        text-align: left;
+                    }
+
+                    .bathroom {
+                        font-family: "Montserrat", sans-serif;
+                        text-align: left;
+                    }
+
+                    .amenities h2 {
+                        font-family: "Libertinus Serif", serif;
+                    }
+
+                    .amenities h2:after {
+                        content: '';
+                        position: absolute;
+                        width: 60px;
+                        height: 3px;
+                        background: linear-gradient(to right, #e74c3c, #f39c12);
+                        bottom: -630px;
+                        left: 50%;
+                        transform: translateX(-50%);
+                    }
+
+                    .places-title {
+                        font-family: "Libertinus Serif", serif;
+                    }
+
+                    .test-title {
+                        font-family: "Libertinus Serif", serif;
+                    }
+
+                    .testimonial-author {
+                        font-family: "Libertinus Serif", serif;
+                    }
+
+                    .slider-container {
+                        width: 340px;
+                        margin: 40px auto;
+                        text-align: center;
+                        border: 1px solid #ccc;
+                        border-radius: 12px;
+                        padding: 18px 6px 18px 6px;
+                        background: #fff;
+                        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+                        position: relative;
+                    }
+
+                    .slider-area {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: center;
+                        position: relative;
+                    }
+
+                    .arrow {
+                        font-size: 32px;
+                        cursor: pointer;
+                        user-select: none;
+                        color: #1976d2;
+                        background: transparent;
+                        border: none;
+                        transition: color 0.2s;
+                        width: 40px;
+                        height: 200px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+
+                    .arrow:active {
+                        color: #004ba0;
+                    }
+
+                    .slider-img {
+                        width: 300px;
+                        height: 200px;
+                        object-fit: cover;
+                        border-radius: 8px;
+                        margin: 0 8px;
+                        box-shadow: 0 2px 3px rgba(0, 0, 0, 0.07);
+                    }
+
+                    .slider-caption {
+                        margin-top: 16px;
+                        min-height: 40px;
+                        font-size: 17px;
+                        color: #444;
+                        line-height: 1.4;
+                    }
+
+                    .packages .slider-container {
+                        position: relative;
+                        left: 10px;
+                    }
+
+                    .packages {
+                        padding: 80px 0;
+                        text-align: center;
+                        background-color: white;
+                    }
+
+                    .packages h2 {
+                        font-size: 2.5rem;
+                        color: #2c3e50;
+                        margin-bottom: 25px;
+                        position: relative;
+                        display: inline-block;
+                        font-family: "Libertinus Serif", serif;
+                    }
+
+                    .packages h2:after {
+                        content: '';
+                        position: absolute;
+                        width: 60px;
+                        height: 3px;
+                        background: linear-gradient(to right, #e74c3c, #f39c12);
+                        bottom: -10px;
+                        left: 50%;
+                        transform: translateX(-50%);
+                    }
+                    .slider-container p{
+                         font-family: "Montserrat", sans-serif;
+                    }
+                </style>
+            </div>
+
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index1.html">Home</a></li>
+                    <li><a href="rooms.html">Rooms</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#" id="padbook">Book Now</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="hero-slider">
+        <div class="slide active" style="background-image: url('images/view.jpg');">
+        </div>
+        <div class="slide" style="background-image: url('images/view2.jpg');">
+        </div>
+        <div class="slide" style="background-image: url('images/view3.jpg');">
+        </div>
+        <div class="slide-content">
+            <h2>Experience Himalayan Serenity</h2>
+            <p>Wake up to breathtaking mountain views in our cozy homestay nestled in the heart of Darjeeling.</p>
+            <a href="#" class="book-now-btn">Explore Rooms</a>
+        </div>
+    </div>
+
+    <section class="welcome">
+        <div class="container">
+            <h2>Welcome to Summit Himalayan Homestay</h2>
+            <p>Nestled in the picturesque hills of Darjeeling, our homestay offers a perfect blend of comfort and
+                authentic Himalayan hospitality. Whether you're seeking a peaceful retreat or an adventurous getaway,
+                our family-run establishment provides the ideal base to experience the magic of the Eastern Himalayas.
+            </p>
+        </div>
+    </section>
+
+    <section class="amenities">
+        <div class="container">
+            <h2>Amenities</h2><br><br>
+            <p class="wifi"><i class="fa-solid fa-wifi"></i> Free WIFI <br><br></p>
+            <p class="park"><i class="fa-solid fa-car"></i> Roadside Parking <br><br></p>
+            <p class="bathroom"><i class="fa-solid fa-toilet"></i> Attached Bathroom</p>
+            <img class="amenitiesimg" src="/homestay/images/tiger-hill.webp">
+        </div>
+    </section>
+
+    <section class="packages">
+        <div class="container">
+            <h2>Packages</h2><br><br>
+            <div class="slider-container">
+                <div class="slider-area">
+                    <button class="arrow" id="leftArrow" aria-label="Previous">&#8592;</button>
+                    <img id="sliderImage" class="slider-img" src="" alt="Random slide">
+                    <button class="arrow" id="rightArrow" aria-label="Next">&#8594;</button>
+                </div>
+                <br>
+                <p>Dinner,Breakfast, Evening snacks and room just for <strong>₹1500</strong></p>
+            </div>
+            <script>
+                const images = [
+                    {
+                        url: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/587081969.jpg?k=d112059d67a6f3a057ec56adaf1238814bf589d99f0a755625ae2c015ea3993d&o=&hp=1",
+                        caption: "Room"
+                    },
+                    {
+                        url: "https://static.toiimg.com/photo/82048030.cms",
+                        caption: "Food"
+                    },
+                    {
+                        url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLPX2xCayvPoLMQxejM8tOpAkBRYxjymCu8Q&s",
+                        caption: "Snacks"
+                    }
+                ];
+
+                let currentIndex = 0;
+
+                function showImage(idx) {
+                    document.getElementById("sliderImage").src = images[idx].url;
+                    document.getElementById("sliderCaption").textContent = images[idx].caption;
+                }
+
+                document.getElementById("leftArrow").onclick = function () {
+                    currentIndex = (currentIndex === 0) ? images.length - 1 : currentIndex - 1;
+                    showImage(currentIndex);
+                };
+                document.getElementById("rightArrow").onclick = function () {
+                    currentIndex = (currentIndex === images.length - 1) ? 0 : currentIndex + 1;
+                    showImage(currentIndex);
+                };
+
+                // Initialize
+                showImage(currentIndex);
+            </script>
+        </div>
+
+    </section>
+
+    <section class="nearby-attractions">
+        <div class="container">
+            <h2 class="places-title">Places Near Us</h2>
+            <p class="section-subtitle">Explore these wonderful attractions just a short distance from our homestay</p>
+
+            <div class="attractions-grid">
+                <div class="attraction-card">
+                    <div class="attraction-img" style="background-image:  url('images/ghoomstation.jpg');"></div>
+                    <div class="attraction-info">
+                        <h3>Ghoom Railway Station</h3>
+                        <p>Visit the highest railway station in India, part of the UNESCO World Heritage Darjeeling
+                            Himalayan Railway. Experience the charm of the historic toy train.</p>
+                        <span class="distance">2.5 km away</span>
+                    </div>
+                </div>
+
+                <div class="attraction-card">
+                    <div class="attraction-img" style="background-image: url('images/peace.jpg');"></div>
+                    <div class="attraction-info">
+                        <h3>Peace Pagoda</h3>
+                        <p>This beautiful Buddhist stupa promotes world peace and offers panoramic views of Darjeeling
+                            and the Himalayan range. A perfect spot for meditation.</p>
+                        <span class="distance">4 km away</span>
+                    </div>
+                </div>
+
+                <div class="attraction-card">
+                    <div class="attraction-img" style="background-image: url('images/ghoom_monastery.jpg');"></div>
+                    <div class="attraction-info">
+                        <h3>Ghoom Monastery</h3>
+                        <p>Also known as Yiga Choeling Monastery, this is one of the oldest Tibetan Buddhist monasteries
+                            in Darjeeling, housing a 15-foot statue of Maitreya Buddha.</p>
+                        <span class="distance">1.8 km away</span>
+                    </div>
+                </div>
+
+                <div class="attraction-card">
+                    <div class="attraction-img" style="background-image: url('images/dali.jpg');"></div>
+                    <div class="attraction-info">
+                        <h3>Dali Monastery</h3>
+                        <p>The Druk Thupten Sangag Choling Monastery is a beautiful Tibetan Buddhist monastery known for
+                            its colorful frescoes and peaceful atmosphere.</p>
+                        <span class="distance">5 km away</span>
+                    </div>
+                </div>
+
+                <div class="attraction-card">
+                    <div class="attraction-img" style="background-image: url('images/tiger-hill.webp');"></div>
+                    <div class="attraction-info">
+                        <h3>Tiger Hill</h3>
+                        <p>Famous for its spectacular sunrise views over Kangchenjunga and other Himalayan peaks. A
+                            must-visit for breathtaking panoramic views.</p>
+                        <span class="distance">6 km away</span>
+                    </div>
+                </div>
+
+                <div class="attraction-card">
+                    <div class="attraction-img" style="background-image: url('images/batasia_loop.jpg');"></div>
+                    <div class="attraction-info">
+                        <h3>Batasia Loop</h3>
+                        <p>A spiral railway loop where the toy train makes a 360-degree turn, offering magnificent views
+                            of Darjeeling town and the mountains.</p>
+                        <span class="distance">3 km away</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="test-title">What Our Guests Say</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial">
+                    <p>The most amazing homestay experience I've ever had! The views were breathtaking, the rooms were
+                        cozy and clean, and the hosts made us feel like family. The location is perfect for exploring
+                        all of Darjeeling's attractions. Can't wait to return!</p>
+                    <div class="testimonial-author">- Sarah Johnson, UK</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Summit Himalayan</h3>
+                    <p>A family-run homestay offering authentic Himalayan hospitality since 2010. We're committed to
+                        providing a memorable experience that blends comfort with local culture.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-tripadvisor"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <a href="#">Home</a>
+                    <a href="#">Our Rooms</a>
+                    <a href="#">Photo Gallery</a>
+                    <a href="#">Local Attractions</a>
+                    <a href="#">Contact Us</a>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Contact Information</h3>
+                    <p class="contact-info"><i class="fas fa-map-marker-alt"></i> Ghoom, Darjeeling, West Bengal 734102
+                    </p>
+                    <p class="contact-info"><i class="fas fa-phone"></i> +91 9876543210</p>
+                    <p class="contact-info"><i class="fas fa-envelope"></i> info@summithimalayan.com</p>
+                    <p class="contact-info"><i class="fas fa-clock"></i> Check-in: 12 PM | Check-out: 10 AM</p>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>&copy; 2023 Summit Himalayan Homestay. All Rights Reserved. | Designed with <i
+                        class="fas fa-heart"></i> for Darjeeling</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple slider functionality
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slide');
+
+        function showSlide(n) {
+            slides.forEach(slide => slide.classList.remove('active'));
+            currentSlide = (n + slides.length) % slides.length;
+            slides[currentSlide].classList.add('active');
+        }
+
+        function nextSlide() {
+            showSlide(currentSlide + 1);
+        }
+
+        // Change slide every 5 seconds
+        setInterval(nextSlide, 5000);
+    </script>
+</body>
+
+</html>
